@@ -27,5 +27,5 @@ jobs:
       with:
         name: hello.txt
         path: ./artifects/
-    - name: See text
+    - name: See the downloaded text
       run: cat ./artifacts/hello.txt
